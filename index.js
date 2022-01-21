@@ -1,6 +1,6 @@
 const { fetchCoordsByIP } = require('./iss');
 
-fetchCoordsByIP('162.245.144.188', (error, coordinates) => {
+fetchCoordsByIP('24.80.168.75', (error, coordinates) => {
   if (error) {
     console.log("It didn't work!" , error);
     return;
