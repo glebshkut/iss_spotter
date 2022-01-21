@@ -1,3 +1,5 @@
+const request = require('request');
+
 const fetchCoordsByIP = function(ip, callback) {
   request(`https://freegeoip.app/json/${ip}`, (error, response, body) => {
     if (error) {
